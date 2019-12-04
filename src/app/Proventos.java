@@ -4,6 +4,7 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
+import java.util.Objects;
 
 public class Proventos extends Contas {
 
@@ -18,7 +19,7 @@ public class Proventos extends Contas {
         this(0, mes, ano, valor, pessoa, imposto);
         
         try {
-            Connection connection = DriverManager.getConnection(url, user, password);
+            Connection connection = DriverManager.getConnection(url, user, password);   //TO DO
             String sql = "INSERT INTO proventos (ano, mes, valor, imposto, pessoas_id) VALUES (?,?,?,?,?)";
             PreparedStatement statemente = connection.prepareStatement(sql);
             statemente.setInt(1, ano);

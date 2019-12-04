@@ -6,10 +6,10 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 public class MenuJF extends JFrame {
-    private JButton botaoPessoa;
+    private JButton botaodaPessoa;
     
-    private JButton botaoDivida;
-    private JButton botaoProvento;
+    private JButton botaodaDivida;
+    private JButton botaodoProvento;
     private JButton botaoConPessoa;
     private JButton botaoConDivida;
     private JButton botaoConProvento;
@@ -45,7 +45,7 @@ public class MenuJF extends JFrame {
                 if (e.getSource() == botaodaPessoa){
                     new PessoaJF();
                 } else if(e.getSource() == botaodoProvento){
-                    new CdProventosJF();
+                    new ProventosJF();
                 } else if (e.getSource() == botaodaDivida){
                     new DividasJF();
                 } else if (e.getSource() == botaoConPessoa){

@@ -76,7 +76,7 @@ public class ProventosJF extends JFrame {
             double valor = Double.parseDouble(textValor.getText());
             int mes = Integer.parseInt(textMes.getText());
             int imposto = Integer.parseInt(textMes.getText());
-            String url = "jdbc:mysql://localhost:3306";//NomeDoBanco
+            String url = "jdbc:mysql://localhost:3306/contas";//NomeDoBanco
             String user = "root";
             String password = "";
             try {
@@ -98,7 +98,7 @@ public class ProventosJF extends JFrame {
     }
 
     public static void main(String[] args) {
-        CdProventosJF teste = new CdProventosJF();
+        ProventosJF teste = new ProventosJF();
     }
 
 }
