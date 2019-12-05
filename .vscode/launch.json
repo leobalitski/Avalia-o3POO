@@ -1,0 +1,25 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - MenuJF",
+            "request": "launch",
+            "mainClass": "app.MenuJF",
+            "projectName": "Teste"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ListagemJF",
+            "request": "launch",
+            "mainClass": "app.ListagemJF",
+            "projectName": "Teste"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - App",
+            "request": "launch",
+            "mainClass": "app.App",
+            "projectName": "Teste"
+        }
+    ]
+}
